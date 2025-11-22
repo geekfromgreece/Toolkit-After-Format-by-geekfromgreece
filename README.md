@@ -220,7 +220,7 @@ pnputil /export-driver * "<Folder>"
 
 pnputil /add-driver "<Folder>\*.inf" /subdirs /install
 
--άνει πλήρη εγκατάσταση όλων των driver packages
+-Kάνει πλήρη εγκατάσταση όλων των driver packages
 
 Ασφαλές → Εγκαθιστά μόνο INF drivers (όχι .exe).
 
@@ -261,15 +261,15 @@ AppsUseLightTheme
 
 Ένα από τα καλύτερα parts του module.
 
-Το script σου:
+Το script:
 
-Διαχειρίζεται και τους 5 βασικούς desktop system icons
+- Διαχειρίζεται και τους 5 βασικούς desktop system icons
 
-Τους ενεργοποιεί ή απενεργοποιεί
+- Τους ενεργοποιεί ή απενεργοποιεί
 
-Refresh Explorer για άμεση εφαρμογή
+- Refresh Explorer για άμεση εφαρμογή
 
-Κάνει χρήση των GUIDs & των registry paths NewStartPanel / ClassicStartMenu
+- Κάνει χρήση των GUIDs & των registry paths NewStartPanel / ClassicStartMenu
 
 Πού χρησιμεύει:
 ✔ Καθάρισμα Desktop
@@ -280,13 +280,13 @@ Refresh Explorer για άμεση εφαρμογή
 
 Ενεργοποιεί/απενεργοποιεί:
 
-Recent files
+-Recent files
 
-Frequent folders
+-Frequent folders
 
-Καθαρίζει Recent Items
+-Καθαρίζει Recent Items
 
-Κάνει Explorer restart
+-Κάνει Explorer restart
 
 Πού χρησιμεύει:
 ✔ Προστασία ιδιωτικότητας
@@ -308,11 +308,11 @@ Frequent folders
 
 Τι κάνει:
 
-Ρυθμίζει DisableSearchBoxSuggestions (Policies)
+- Ρυθμίζει DisableSearchBoxSuggestions (Policies)
 
-Αλλάζει BingSearchEnabled (User setting)
+- Αλλάζει BingSearchEnabled (User setting)
 
-Κάνει Explorer restart
+- Κάνει Explorer restart
 
 Πού χρησιμεύει:
 ✔ Αν θες καθαρή, τοπική αναζήτηση
@@ -325,9 +325,9 @@ Frequent folders
 
 Το menu δίνει:
 
-Remove Bloatware
+- Remove Bloatware
 
-Restore Bloatware
+- Restore Bloatware
 
 Με λειτουργίες όπως:
 
@@ -348,17 +348,17 @@ Restore Bloatware
 
 Δίνει:
 
-Balanced
+- Balanced
 
-High performance
+- High performance
 
-Power saver
+- Power saver
 
-TurboMode (custom power plan)
+- TurboMode (custom power plan)
 
-DevMode (custom coding-friendly plan)
+- DevMode (custom coding-friendly plan)
 
-Restore defaults
+- Restore defaults
 
 Εδώ έχεις advanced δουλειά με GUID scanning, duplicates, value indexes.
 
@@ -383,10 +383,10 @@ Restore defaults
 
 Υπομενού με λειτουργίες:
 
-Export WiFi Profile
+- Export WiFi Profile
 Εξάγει προφίλ Wi-Fi από το συνδεδεμένο δίκτυο σε XML (με κλειδί!), χρήσιμο για backup πριν από format.
 
-Connect to Internet (Import & Connect)
+- Connect to Internet (Import & Connect)
 Χρησιμοποιεί netsh για να φορτώσει XML Wi-Fi profiles και να συνδεθεί αυτόματα.
 
 Πού χρησιμεύει:
@@ -400,21 +400,21 @@ Connect to Internet (Import & Connect)
 
 Περιλαμβάνει:
 
-Shecan
+- Shecan
 
-Electro
+- Electro
 
-Begzar
+- Begzar
 
-Google (8.8.8.8)
+- Google (8.8.8.8)
 
-Cloudflare (1.1.1.1)
+- Cloudflare (1.1.1.1)
 
-AdGuard (blocking filters)
+- AdGuard (blocking filters)
 
-Reset to default (DHCP)
+- Reset to default (DHCP)
 
-Check current DNS settings
+- Check current DNS settings
 
 Με ένα click αλλάζεις DNS για:
 
@@ -431,11 +431,11 @@ Check current DNS settings
 
 Αναλύει:
 
-Ping
+- Ping
 
-Download
+- Download
 
-Upload
+- Upload
 
 Με PowerShell JSON parsing — το έχεις φτιάξει πολύ επαγγελματικά.
 
@@ -451,25 +451,25 @@ Mini-tool για fixing networking χωρίς να ανοίγεις Settings ή 
 
 Περιλαμβάνει:
 
-Flush DNS
+- Flush DNS
 
-Display DNS records
+- Display DNS records
 
-Display ARP cache
+- Display ARP cache
 
-Show interfaces
+- Show interfaces
 
-Full IP configuration
+- Full IP configuration
 
-Reset TCP/IP IPv4
+- Reset TCP/IP IPv4
 
-Reset IPv6
+- Reset IPv6
 
-Reset Winsock
+- Reset Winsock
 
-Restart Wi-Fi adapter
+- Restart Wi-Fi adapter
 
-Run All (full reset combo)
+- Run All (full reset combo)
 
 Αυτό είναι ουσιαστικά ένα network repair utility, πιο γρήγορο και πιο καθαρό από το ενσωματωμένο των Windows.
 
@@ -484,9 +484,9 @@ Run All (full reset combo)
 
 Γρήγορη εκκαθάριση προσωρινών αρχείων:
 
-Temp cleanup
+- Temp cleanup
 
-Temp folder inspection
+- Temp folder inspection
 (με μενού και καθαρή ροή)
 
 Χρήσιμο για:
@@ -501,11 +501,11 @@ Temp folder inspection
 
 Περιλαμβάνει options:
 
-Block/Unblock Extension
+- Block/Unblock Extension
 
-Install / Force Install
+- Install / Force Install
 
-Remove Extension
+- Remove Extension
 
 (Placeholders για επέκταση)
 
@@ -564,13 +564,13 @@ Windows Logs
 
 Αυτό το εργαλείο:
 
-Σταματά υπηρεσίες (wuauserv, bits)
+- Σταματά υπηρεσίες (wuauserv, bits)
 
-Διαγράφει όλο το SoftwareDistribution
+- Διαγράφει όλο το SoftwareDistribution
 
-Το ξαναχτίζει καθαρό
+- Το ξαναχτίζει καθαρό
 
-Επανεκκινεί υπηρεσίες
+- Επανεκκινεί υπηρεσίες
 
 Ιδανικό για:
 
@@ -583,11 +583,11 @@ Windows Logs
 
 Καθαρίζει:
 
-Crash dumps
+- Crash dumps
 
-Error reports
+- Error reports
 
-Diagnostic logs
+- Diagnostic logs
 
 Αυτά σωρεύονται μετά από:
 
@@ -609,9 +609,9 @@ Diagnostic logs
 
 Αυτόματη διαδικασία Disk Cleanup:
 
-Ανοίγει sageset (ρυθμίσεις)
+- Ανοίγει sageset (ρυθμίσεις)
 
-Μετά τρέχει sagerun (εκτέλεση)
+- Μετά τρέχει sagerun (εκτέλεση)
 
 Ιδανικό για:
 
